@@ -1,0 +1,25 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Teste de REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dumondmd/nodejsapi.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Dumon de Magalhães Dias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dumondmd/nodejsapi/issues"
+  },
+  "homepage": "https://github.com/dumondmd/nodejsapi#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
