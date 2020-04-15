@@ -3,7 +3,8 @@
 
 API REST Node.js com Mysql
 
-
+## bcryptjs
+Foi usada ela pois a padrão exige dependencias
 
 ## Execução
 Ex.: node server.js
