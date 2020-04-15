@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const rotaProdutos = require('./routes/produtos');
 const rotaPedidos = require('./routes/pedidos');
 
+app.use('/uploads', express.static('uploads'))
 
 app.use(bodyParser.urlencoded({ extended: false})); //Apenas dados simples
 app.use(bodyParser.json()); //Json de entrada no body
